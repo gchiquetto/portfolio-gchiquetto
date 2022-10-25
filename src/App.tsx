@@ -1,14 +1,13 @@
 import { Container, Content } from '.'
 import { Navbar } from './components/Navbar'
-import { ProfileCard } from './components/ProfileCard'
+import { About } from './Pages/About'
 
 export function App() {
   return (
     <Container>
-      <ProfileCard />
+      <Navbar />
       <Content>
-        <Navbar />
-        <main></main>
+        <About />
       </Content>
     </Container>
   )

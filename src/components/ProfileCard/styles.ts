@@ -4,7 +4,6 @@ export const ProfileCardContainer = styled('div', {
   maxWidth: '17.5rem',
   borderRadius: 10,
   background: '$gray800',
-  position: 'fixed',
   boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.25)',
   padding: '2rem 1.25rem',
   display: 'flex',
