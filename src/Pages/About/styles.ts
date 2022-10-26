@@ -6,7 +6,7 @@ export const AboutContainer = styled('div', {
   alignItems: 'flex-start',
   marginTop: '5rem',
   maxWidth: '1280px',
-  margin: '5rem auto 0',
+  margin: '8rem auto 0',
 })
 
 export const AboutContent = styled('main', {

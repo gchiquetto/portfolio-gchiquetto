@@ -1,14 +1,10 @@
-import { Container, Content } from '.'
-import { Navbar } from './components/Navbar'
-import { About } from './Pages/About'
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './Router'
 
 export function App() {
   return (
-    <Container>
-      <Navbar />
-      <Content>
-        <About />
-      </Content>
-    </Container>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }

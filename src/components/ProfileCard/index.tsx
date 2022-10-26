@@ -46,7 +46,7 @@ export function ProfileCard() {
       <ProfileCardFooter>
         <a
           className="cv_download_button"
-          href="https://drive.google.com/uc?export=download&id=1LWRCp6W-hxhzNpTyPn5iAZ56if21ZC8F"
+          href="https://drive.google.com/uc?export=download&id=1cgUbPbXPmKDI0iCCXccIx2gz-9hvZbqK"
         >
           Download my CV
         </a>
@@ -54,10 +54,17 @@ export function ProfileCard() {
           <a
             className="social-media"
             href="https://www.linkedin.com/in/gabriela-chiquetto-policano-b6917533/"
+            target="_blank"
+            rel="noreferrer"
           >
             <LinkedinLogo size={20} />
           </a>
-          <a className="social-media" href="https://github.com/gchiquetto">
+          <a
+            className="social-media"
+            href="https://github.com/gchiquetto"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GithubLogo size={20} />
           </a>
         </div>

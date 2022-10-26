@@ -37,6 +37,7 @@ export const {
       md: '1.25rem',
       sm: '1.125rem',
       xsm: '1rem',
+      xxsm: '0.875rem',
     },
   },
 })

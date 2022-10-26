@@ -1,6 +1,6 @@
 import { styled } from '../../styles'
 
-export const NavbarContainer = styled('div', {
+export const HeaderContainer = styled('div', {
   background: '$gray600',
   padding: '2rem 0',
   width: '100%',
